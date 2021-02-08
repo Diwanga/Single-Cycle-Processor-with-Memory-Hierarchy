@@ -1,0 +1,24 @@
+========= ABOUT VIEWING TIMING DIGRAMS AND VCD FILES ============
+
+*******************************************************************
+
+  *  I HAVE INSERTED INSTRUCTION SET IN TESTBENCH WHICH HAS ALL
+     MEMORY RELATED INSTUCTIONS .
+ 
+  * I have included 1 whole screenshot and 5 other Screenshots with zooming to cover all time.
+  
+  *  As these instuctions getting long times and we use Pico uniits, timing digrams     are not clear.
+  
+  * SO I HAVE INCLUDED VCD FILE . 
+  
+  * YOU CAN VIEW BY THESE COMMAND .
+  -----------------------------------------------------------------------------
+  
+
+		gtkwave wavedata.vcd
+		
+ -------------------------------------------------------------------------------
+ 
+ OR  compile whole code by using commands in README.txt file
+
+...................................................................................................................................................

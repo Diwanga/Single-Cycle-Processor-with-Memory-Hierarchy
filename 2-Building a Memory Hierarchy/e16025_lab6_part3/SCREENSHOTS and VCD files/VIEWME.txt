@@ -1,0 +1,35 @@
+========= ABOUT VIEWING TIMING DIGRAMS AND VCD FILES ============
+
+*******************************************************************
+
+  *  I HAVE INCLUDED 03 INSTRUCTION SETs IN Instruction Memory. 
+
+  * Instruction SET 01 is active and it shows all instruction cache control changes 
+ 
+  * INSTRUCTION SET 02 an 03 are more instructions which you can use for check.
+
+  * I have included timing diagrams only for  INSTRUCTION_SET_01..
+
+  * It contains 1 whole screenshots and 7 other Screenshots with zooming to cover all time
+     
+  *  As these instuctions getting long times and we use Pico uniits, timing digrams  are not clear.
+  
+  * SO I HAVE INCLUDED VCD FILE for EACH. 
+  
+  * YOU CAN VIEW BY THESE COMMANDS .
+  -----------------------------------------------------------------------------
+   
+                    gtkwave wavedata_INSTRUCTION_SET_01.vcd
+
+                   gtkwave wavedata_INSTRUCTION_SET_02.vcd
+
+                   gtkwave wavedata_INSTRUCTION_SET_03.vcd
+
+				
+ -------------------------------------------------------------------------------
+ 
+ OR  compile whole code by using commands in README.txt file
+
+for SET 02 and 03 , uncomment instructions in Instruction memory an uncomment proper timings(included in testbench).
+
+...................................................................................................................................................
